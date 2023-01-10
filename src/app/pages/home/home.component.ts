@@ -22,4 +22,6 @@ export class HomeComponent {
       this.boton="Mostrar";
     }
   }
+
+  parrafo2:string="El two-way data binding en Angular nos permite modificar el valor de una propiedad de forma bidireccional, de forma que cuando nosotros modificamos el valor de una propiedad en la vista el valor también se actualiza en el modelo de datos.";
 }

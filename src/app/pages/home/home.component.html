@@ -3,8 +3,13 @@
     <div class="col-6">
         <h2>{{titulo}}</h2>
         <hr>
-        <p>Event Binding</p>
+        <h5>Event Binding</h5>
         <button class="btn btn-primary" (click)="mostrar()">{{boton}}</button>
         <p>{{parrafo}}</p>
+        <hr>   
+        <h5>El two-way binding</h5>
+        <p>{{parrafo2}}</p>
+        <textarea class="form-control" name="" id="" cols="30" rows="6"[(ngModel)]="parrafo2">El two-way data binding en Angular nos permite modificar el valor de una propiedad de forma bidireccional, de forma que cuando nosotros modificamos el valor de una propiedad en la vista el valor también se actualiza en el modelo de datos.</textarea>
+
     </div>
 </div>
