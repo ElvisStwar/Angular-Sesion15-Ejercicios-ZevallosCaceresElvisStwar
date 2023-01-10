@@ -1,8 +1,13 @@
-<div class="row justify-content-center">
-    <div>
+<div class="row justify-content-center mt-5">
+    <div class="col-6">
+        <div class="border p-3">
+            <h3>Componente Padre</h3>
+            <input class="form-control" type="text" [(ngModel)]="textoPadre" placeholder="Inserte texto">
 
-    </div>
-    <div>
-
+            <div class="border p-4 mt-3">
+                <h4>Componenete Hijo</h4>
+                <app-hijo [textoHijo]="textoPadre"></app-hijo>
+            </div>
+        </div>
     </div>
 </div>
