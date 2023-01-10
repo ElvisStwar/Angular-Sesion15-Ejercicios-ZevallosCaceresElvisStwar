@@ -12,6 +12,9 @@ import { HijoComponent } from './hijo/hijo.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    PadreComponent
   ]
 })
 export class ComponentesModule { }
